@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	vertical-align: baseline;
+	font-size: 100%;
+}
+
+
+html {
+	font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+	width: 100%;
+	background:  black;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+.navBar::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+h1 {
+	color: #fff;
+	font-size: 48px;
+}
+
+p {
+	color: #fff;
+	font-size: 48px;
+}
+
+nav {
+	height:  70px;
+	line-height: 70px
+}
+
+nav a img {
+	vertical-align: middle;
+	width: 30px;
+	height: 30px
+}
+
+
+header {
+	margin: 100px 0 200px 120px;
+
+}
+
+header p {
+	width: 60%;
+	margin-top: 10px;;
+}
+
+/* work */
+
+.work {
+	text-align: center;
+	width: 100%;
+}
+
+.work img {
+	margin: 1%;
+	width: 45%
+}
+
